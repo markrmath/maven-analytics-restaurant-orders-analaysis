@@ -169,3 +169,5 @@ FROM order_details AS od
 	LEFT JOIN menu_items AS mi
 		ON od.item_id = mi.menu_item_id
 WHERE od.order_id IN (440, 2075, 1957, 330, 2675);
+
+-- No concrete questions were asked for this bonus question.
